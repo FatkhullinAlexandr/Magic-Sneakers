@@ -1,0 +1,22 @@
+.catalog {
+     padding: 50px 0;
+
+     .catalog-container {
+          max-width: 1120px;
+          padding: 0 10px;
+          margin: 0 auto;
+
+          .catalog-title {
+               font-size: 26px;
+               line-height: 30px;
+               color: #000000;
+               margin-bottom: 20px;
+          }
+
+          .catalog-body {
+               display: grid;
+               grid-template-columns: repeat(4, 1fr);
+               gap: 35px;
+          }
+     }
+}

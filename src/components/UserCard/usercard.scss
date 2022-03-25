@@ -1,0 +1,47 @@
+.user-card {
+     background-color: #fff;
+     border-radius: 5px;
+     padding: 30px;
+
+     .user-card-image {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 15px;
+     }
+
+     img {
+          width: 180px;
+          height: 180px;
+     }
+
+     .user-card-title {
+          font-size: 14px;
+          line-height: 16px;
+          color: #000000;
+          margin-bottom: 10px;
+     }
+
+     .user-card-footer {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          span {
+               font-size: 14px;
+               line-height: 16px;
+               color: #000000;
+          }
+
+          button {
+               padding: 5px 15px;
+               border-radius: 10px;
+               background: rgb(202, 200, 200);
+               transition: all 0.3s ease-in-out;
+
+               &:hover {
+                    background: rgb(243, 107, 107);
+                    color: #fff;
+               }
+          }
+     }
+}

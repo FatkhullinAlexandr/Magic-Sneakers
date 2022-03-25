@@ -1,0 +1,47 @@
+.user {
+     padding: 50px 0;
+
+     .user-container {
+          max-width: 1120px;
+          padding: 0 10px;
+          margin: 0 auto;
+
+          .user-title {
+               font-size: 26px;
+               line-height: 30px;
+               color: #000000;
+               margin-bottom: 20px;
+          }
+
+          .user-body {
+               display: grid;
+               grid-template-columns: repeat(4, 1fr);
+               gap: 35px;
+          }
+
+          .user-footer {
+               margin-top: 70px;
+
+               p {
+                    font-size: 20px;
+                    line-height: 30px;
+                    color: #000000;
+               }
+
+               button {
+                    margin-top: 20px;
+                    font-size: 20px;
+                    color: #899a58;
+                    background: #c9d673;
+                    padding: 10px 25px;
+                    border-radius: 10px;
+                    transition: all 0.3s ease-in-out;
+
+                    &:hover {
+                         background: #a6b63f;
+                         color: #fff;
+                    }
+               }
+          }
+     }
+}
